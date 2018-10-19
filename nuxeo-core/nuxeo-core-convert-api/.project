@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>nuxeo-core-convert-api</name>
+	<comment>Nuxeo Core API for Blob conversion. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>nuxeo-core-api</project>
+		<project>nuxeo-common</project>
+		<project>nuxeo-core-schema</project>
+		<project>nuxeo-runtime</project>
+		<project>nuxeo-runtime-jtajca</project>
+		<project>nuxeo-runtime-metrics</project>
+		<project>nuxeo-runtime-management</project>
+		<project>nuxeo-runtime-test</project>
+		<project>nuxeo-runtime-osgi</project>
+		<project>nuxeo-runtime-jetty-adapter</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+</projectDescription>
